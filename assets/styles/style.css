@@ -1,0 +1,15 @@
+select {
+    width: 150px;
+    height: 30px;
+}
+
+#typeNumber {
+    width: 150px;
+    height: 25px;
+}
+
+#inputSend {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(240, 93, 123);
+}
