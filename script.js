@@ -11,7 +11,10 @@ fetch("https://swapi.dev/api/people/1")
 */
 let post = document.getElementById('post');//вывести информацию
 let typeNumber = document.getElementById('typeNumber');//ввести номер
+let inputSend = document.getElementById('inputSend');
 let typeError = document.createElement('span');//сообщение об ошибке
+
+let loader_wrapper = document.querySelector('loader_wrapper');
 
 typeNumber.addEventListener('keyup', () => {
   if (typeNumber.value > 10) {
