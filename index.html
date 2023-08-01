@@ -7,18 +7,18 @@
     <title>Swapi</title>
   </head>
   <body>
-    <form name="form">
+    <form class="form" name="form">
       <p><b>Кого или что будем искать?</b></p>
-      <select id="choose" onchange="selectOption()">
+      <select id="choose">
         <option selected disabled value="none"></option>
         <option value="people">Персонажей</option>
         <option value="planets">Планеты</option>
         <option value="films">Фильмы</option>
       </select>
       <input id="typeNumber" type="number" placeholder="Введите номер" value />
-      <input id="inputSend" type="submit" value="Вперед!" />
+      <input id="inputSend" type="submit" value="Вперед!"/>
     </form>
-    <div class="progress">
+    <div id="progress">
       <span class="loader_wrapper">
         <svg
           viewBox="-50 -50 700 700"

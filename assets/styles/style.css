@@ -26,11 +26,9 @@ select {
 }
 
 
-.progress {
+#progress {
     display: none;
-    /*display: flex;
-    //justify-content: center;
-*/}
+  }
   
   .loader_wrapper {
     display: inline-block;
