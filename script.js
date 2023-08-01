@@ -34,6 +34,8 @@ form.addEventListener('submit', function (evt) {
     post.appendChild(typeError);
     typeError.textContent = error.message;
   }  
+
+  form.reset();
 })}
 );
 
